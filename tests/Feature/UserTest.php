@@ -1,8 +1,8 @@
 <?php
 
-use App\Models\User;
-
 declare(strict_types=1);
+
+use App\Models\User;
 
 it('can store a user in the database', function () {
     User::create([
