@@ -1,0 +1,86 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "align_multiline_comment": true,
+        "assign_null_coalescing_to_coalesce_equal": true,
+        "array_push": true,
+        "braces": false,
+        "class_reference_name_casing": true,
+        "combine_consecutive_issets": true,
+        "combine_consecutive_unsets": true,
+        "concat_space": {
+            "spacing": "one"
+        },
+        "declare_strict_types": true,
+        "explicit_string_variable": true,
+        "global_namespace_import": {
+            "import_classes": true,
+            "import_constants": true,
+            "import_functions": true
+        },
+        "method_argument_space": true,
+        "modernize_strpos": true,
+        "multiline_comment_opening_closing": true,
+        "new_with_parentheses": true,
+        "new_expression_parentheses": true,
+        "no_superfluous_elseif": true,
+        "no_unneeded_import_alias": true,
+        "no_useless_concat_operator": true,
+        "no_useless_else": true,
+        "no_useless_nullsafe_operator": true,
+        "ordered_class_elements": true,
+        "ordered_types": {
+            "null_adjustment": "always_last",
+            "sort_algorithm": "none"
+        },
+        "phpdoc_align": {
+            "align": "left",
+            "spacing": 1
+        },
+        "phpdoc_annotation_without_dot": true,
+        "phpdoc_order": true,
+        "phpdoc_param_order": true,
+        "phpdoc_separation": {
+            "groups": [
+                [
+                    "deprecated",
+                    "link",
+                    "see",
+                    "since"
+                ],
+                [
+                    "author",
+                    "copyright",
+                    "license"
+                ],
+                [
+                    "category",
+                    "package",
+                    "subpackage"
+                ],
+                [
+                    "property",
+                    "property-read",
+                    "property-write"
+                ],
+                [
+                    "param"
+                ],
+                [
+                    "throws",
+                    "return"
+                ]
+            ]
+        },
+        "phpdoc_tag_casing": true,
+        "php_unit_fqcn_annotation": true,
+        "php_unit_method_casing": true,
+        "single_line_empty_body": false,
+        "single_trait_insert_per_statement": true,
+        "simple_to_complex_string_variable": true,
+        "standardize_increment": true,
+        "switch_continue_to_break": true,
+        "ternary_to_null_coalescing": true,
+        "strict_comparison": true
+    }
+}
