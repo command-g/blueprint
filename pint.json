@@ -18,6 +18,7 @@
             "import_constants": true,
             "import_functions": true
         },
+        "fully_qualified_strict_types": true,
         "method_argument_space": true,
         "modernize_strpos": true,
         "multiline_comment_opening_closing": true,
@@ -25,6 +26,7 @@
         "new_expression_parentheses": true,
         "no_superfluous_elseif": true,
         "no_unneeded_import_alias": true,
+        "no_unused_imports": true,
         "no_useless_concat_operator": true,
         "no_useless_else": true,
         "no_useless_nullsafe_operator": true,
