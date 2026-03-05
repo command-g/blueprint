@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "command-g/blueprint",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "An opiniated application skeleton for the Laravel framework.",
     "keywords": [
         "laravel",
         "framework"
