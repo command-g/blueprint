@@ -54,11 +54,13 @@
         ],
         "lint": [
             "rector",
-            "pint --parallel"
+            "pint --parallel",
+            "npm run lint"
         ],
         "test:lint": [
             "rector --dry-run",
-            "pint --parallel --test"
+            "pint --parallel --test",
+            "npm run lint:test"
         ],
         "test:type-coverage": "pest --parallel --type-coverage --min=100",
         "test:unit": "pest --parallel --coverage --min=80",
